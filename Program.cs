@@ -1,7 +1,8 @@
 char[,] matrix = new char[3, 3];
 bool xTurn = false;
-Console.WriteLine("Vuvedete poleto: ");
 
+//Vuvejdane i generirane na poleta
+Console.WriteLine("Vuvedete poleto: ");
 for (byte i = 0; i < 3; i++)
 {
     string line = Console.ReadLine();
@@ -30,6 +31,7 @@ for (byte i = 0; i < 3; i++)
     }
 }
 
+//Presmqtane na pobeditel.
 Console.WriteLine();
 
 string Winner = "Nikoi";
